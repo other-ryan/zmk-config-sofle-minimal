@@ -62,7 +62,7 @@
 &trans  &trans  &trans  &trans  &trans     &trans                              &trans    &trans    &trans  &trans     &trans  &trans
 &trans  &trans  &trans  &trans  &kp MINUS  &kp LS(MINUS)                       &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
 &trans  &trans  &trans  &trans  &kp EQUAL  &kp LS(EQUAL)  &trans    &mkp LCLK  &kp LBKT  &kp RBKT  &trans  &trans     &trans  &trans
-                &trans  &trans  &trans     &trans         &trans    &trans     &trans    &trans    &trans  &trans
+                &trans  &trans  &trans     &kp SPACE      &trans    &trans     &trans    &trans    &trans  &trans
             >;
 
             sensor-bindings =
@@ -74,11 +74,11 @@
             display-name = "special";
             label = "special";
             bindings = <
-&kp RS(GRAVE)    &kp RS(N1)  &kp RS(N2)   &kp RS(N3)  &kp RS(N4)  &kp RS(N5)                    &kp RS(N6)  &kp RS(N7)      &kp RS(N8)      &kp RS(N9)  &kp RS(N0)       &kp BACKSPACE
-&bt BT_NXT       &trans      &trans       &trans      &trans      &trans                        &trans      &trans          &kp UP_ARROW    &kp UP      &trans           &trans
-&trans           &trans      &trans       &trans      &trans      &trans                        &trans      &kp LEFT_ARROW  &kp LEFT        &kp RIGHT   &kp RIGHT_ARROW  &trans
-&trans           &trans      &trans       &trans      &trans      &trans      &trans    &trans  &trans      &trans          &kp DOWN_ARROW  &kp DOWN    &trans           &trans
-                             &trans       &trans      &trans      &trans      &trans    &trans  &trans      &trans          &trans          &trans
+&kp RS(GRAVE)  &kp RS(N1)  &kp RS(N2)  &kp RS(N3)  &kp RS(N4)  &kp RS(N5)                    &kp RS(N6)  &kp RS(N7)      &kp RS(N8)      &kp RS(N9)  &kp RS(N0)       &kp BACKSPACE
+&bt BT_NXT     &trans      &trans      &trans      &trans      &trans                        &trans      &trans          &kp UP_ARROW    &kp UP      &trans           &trans
+&trans         &trans      &trans      &trans      &trans      &trans                        &trans      &kp LEFT_ARROW  &kp LEFT        &kp RIGHT   &kp RIGHT_ARROW  &trans
+&trans         &trans      &trans      &trans      &trans      &trans      &trans    &trans  &trans      &trans          &kp DOWN_ARROW  &kp DOWN    &trans           &trans
+                           &trans      &trans      &trans      &trans      &trans    &trans  &trans      &trans          &trans          &trans
             >;
         };
     };
